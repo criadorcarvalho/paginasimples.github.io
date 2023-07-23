@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: hsla(38, 5%, 71%, 0.527);
+}
+
+.container-main{
+    width: 100%;
+    max-width: 100vh;
+    margin: 0 auto;
+    padding: 10px 3%;
+}
+
+.container-main >.h1,h2,p{
+    text-align: center;
+    padding-bottom: 0.3em;
+}
+
+.container-main 
+h2,p{
+    text-align: unset;
+    padding-bottom: unset;
+    padding-top: 0.3em;
+}
+
+
+.container-middle{
+    width: 100%;
+    padding: 10px 0;
+    padding-bottom: 25px;
+}
+
+.container-middle, .img{
+    width: 100%;
+    max-width: 400px;
+    padding-top: 10px;
+}
+
+.container-middle a{text-transform: capitalize;} a{text-decoration: none;} a:link{color: hsl(240, 100%, 50%);} a:hover{color: hsl(0, 100%, 50%);} a:active{color: rgb(255, 230, 0);}
+
+.container-lista{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.lista-aves >li{
+   cursor: pointer;
+
+}
+
+.container-lista .h-2{
+    text-align: center;
+    padding-bottom: 0.3em;
+    font-size: 34px;
+}
+    
+.container-lista .h3{
+    padding-bottom: 9px;
+    padding-top: 1.1em;
+}
+
+.hide .img-2{
+    width: 80px;
+}
+
+.hide figure{display: inline-block;}
+
+.hide .passaro{
+    cursor: pointer;
+    margin: 5px;
+}
+
+.hide{
+    padding-top: 10px;
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+
+section.colecao h1{
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    font-size: 34px;
+}
+
+section.colecao h2{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+section.passaro-grande{
+    padding-bottom: 20px;
+}
+
+.colecao .lista-2{
+    padding-bottom: 15px;
+    text-transform: capitalize;
+}
+
+fieldset.input{
+    padding: 10px 13px;
+}
+
+.rodape{
+    padding: 15px 0;
+    font-size: 17px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.lista-aves li{
+    width:16%;
+}
+
+@media screen and (max-width: 380px) {
+    .container-middle{
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .container-lista{
+        text-align: center;
+        font-size:13px;
+    }
+    .container-lista .h-2{
+        padding-bottom: 0.0em;
+    }
+
+    .lista-aves{
+        width:100%;
+    }
+    
+    .lista-aves li,li{
+        width:50%;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: capitalize;
+        display: inline-block; 
+    }
+
+    .hide{
+        display: none;
+    }
+
+    section.colecao h1{
+        padding-bottom: 9px;
+        font-size: 31px;
+    }
+
+    section.colecao{
+        text-align: center;
+    }
+    
+    section.colecao h2{
+        font-size: 17px;
+    }
+    
+    
+}

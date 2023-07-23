@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;600&display=swap" rel="stylesheet">
+    <title>sempre textando</title>
+</head>
+<body>
+    <main class="container-main">
+        <h1 class="h1">descrição das coisas</h1>
+        <hr/>
+
+        <section class="container-middle">
+            <h2 class="h2">coisas sobre pássaros aqui!</h2>
+            <p class="p">tudo pronto pra vocẽ: <a target="_blank" href="https://www.google.com/search?sxsrf=AB5stBizkhO21_LpPb06hSw4BkWxdg8HdA:1689894237737&q=imagem+p%C3%A1ssaros&tbm=isch&sa=X&ved=2ahUKEwjG5f3Nsp6AAxWTq5UCHXciDzcQ0pQJegQIDRAB&biw=1366&bih=636&dpr=1#imgrc=9sWzfQk8_MCxRM" >escolher</a></p>
+            <figure>
+            <a target="_blank" href="https://www.google.com/search?sxsrf=AB5stBizkhO21_LpPb06hSw4BkWxdg8HdA:1689894237737&q=imagem+p%C3%A1ssaros&tbm=isch&sa=X&ved=2ahUKEwjG5f3Nsp6AAxWTq5UCHXciDzcQ0pQJegQIDRAB&biw=1366&bih=636&dpr=1#imgrc=9sWzfQk8_MCxRM"><img class="img" src="https://cdn.pixabay.com/photo/2017/02/07/16/47/kingfisher-2046453_1280.jpg" alt="pássarinho"></a>
+            <figcaption>pássaro</figcaption>
+            </figure>
+        </section>
+
+        <section class="container-lista">
+                <hr>
+                <h2 class="h-2">pássaros lista</h2>
+                <h3 class="h3">para mudar a imagens dos pássaros passe o mouse nos nomes</h3>
+
+            <ul class="lista-aves">
+
+                <li id="sabia" class="passaro"  data-name="Sabiá">Sabiá</li>
+                <li id="bem-te-vi" class="passaro" data-name="Bem-Te-Vi" >Bem-te-vi</li>
+                <li id="beija-flor" class="passaro" data-name="Beija-Flor" >Beija-flor</li>
+                <li id="canario" class="passaro" data-name="Canário">Canário</li>             
+
+            </ul>
+
+            <ul class="hide">
+
+                <figure> 
+                    <img class="img-2" src="image/card-sabia.jpg" alt="sabiá">   
+                    <figcaption>Sabiá</figcaption>
+                </figure>
+
+                <figure>
+                    <img class="img-2" src="image/card-bem-te-vi.jpg" alt="bem-te-vi">  
+                    <figcaption>Bem-Te-Vi</figcaption>
+                </figure>
+
+                <figure>               
+                    <img class="img-2" src="image/card-beija-flor.jpg" alt="beija-flor"> 
+                    <figcaption>Beija-Flor</figcaption>
+                </figure>
+
+                <figure id="img-2" class="aves">
+                    <img class="img-2" src="image/card-canario.jpg" alt="canário">                  
+                    <figcaption>Canário</figcaption>
+                </figure>
+
+            </ul>
+
+        </section>
+
+        <section class="passaro-grande">
+
+                <figure>
+                    <img style="max-width: 400px; width: 100%;" class="passaro-tela" src="image/card-sabia.png" alt="passaro-tela">
+                    <figcaption id="nome-passaro">Sabiá</figcaption>
+                </figure>
+            </section>
+
+            <section class="colecao">
+                <hr>
+                <h1>diga algo sobre pássaros</h1>
+                <h2>tres coisas que vocẽ gosta nos pássaros</h2>
+
+            <ul class="lista-2">
+                <li>são bonitos</li>
+                <li>eles cantão</li>
+                <li>eles voam</li>
+            </ul>
+
+            <figure class="img-3">
+                <img style="width: 100%;" src="https://assets.izap.com.br/terral.agr.br/uploads/img57c72176b6385.jpg" alt="colecão-de-pássaros">
+                <figcaption>5 Aves</figcaption>
+            </figure>
+
+            </section>
+
+            <section class="container-form">
+                <h2>formulário de pássaros</h2>
+            <form action="https://www.google.com/search?sxsrf=AB5stBizkhO21_LpPb06hSw4BkWxdg8HdA:1689894237737&q=imagem+p%C3%A1ssaros&tbm=isch&sa=X&ved=2ahUKEwjG5f3Nsp6AAxWTq5UCHXciDzcQ0pQJegQIDRAB&biw=1366&bih=636&dpr=1#imgrc=9sWzfQk8_MCxRM">
+
+                <fieldset class="input" >
+                    <legend>Suas escolhas de aves são</legend>
+
+                    <Label for="passa"><input id="passa" type="radio" name="passa-aves" value="passa" checked> Amaves </Label>
+
+                    <Label for="passa"><input id="passa" type="radio" name="passa-aves" value="passa"> Lindos </Label>
+
+                </fieldset>
+
+
+                <fieldset class="input" >
+
+                    <legend>Do que eles gostão</legend>
+
+                    <input id="cantos" type="checkbox" name="passa-aves" value="cantos" checked> <label for="cantos"> Alpiste </label>
+                    <input id="cantos" type="checkbox" name="passa-aves" value="cantos"> <label for="cantos"> Pão </label>
+                    <input id="cantos" type="checkbox" name="passa-aves" value="cantos"> <label for="cantos"> Sabão </label>
+                       
+                </fieldset>
+            </form>
+            </section>
+    </main>
+
+            <footer class="rodape">
+                <p>
+                    Sem direitos autorais - <a target="_blank" href="https://www.google.com/search?sxsrf=AB5stBizkhO21_LpPb06hSw4BkWxdg8HdA:1689894237737&q=imagem+p%C3%A1ssaros&tbm=isch&sa=X&ved=2ahUKEwjG5f3Nsp6AAxWTq5UCHXciDzcQ0pQJegQIDRAB&biw=1366&bih=636&dpr=1#imgrc=9sWzfQk8_MCxRM">criadorCarvalho</a>
+                </p>
+            </footer>
+
+    <script src="js/functions.js"></script>
+</body>
+</html>
