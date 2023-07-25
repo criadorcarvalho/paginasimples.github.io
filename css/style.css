@@ -107,9 +107,11 @@ fieldset.input{
     padding: 10px 13px;
 }
 
+
 .rodape{
-    padding: 15px 0;
+    padding: 20px 0;
     font-size: 17px;
+    padding-top: -40px;
     text-transform: capitalize;
     text-align: center;
 }
@@ -118,7 +120,7 @@ fieldset.input{
     width:16%;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 450px) {
     .container-middle{
         font-size: 13px;
         text-align: center;
@@ -159,7 +161,6 @@ fieldset.input{
     
     section.colecao h2{
         font-size: 17px;
-    }
-    
+    }  
     
 }
